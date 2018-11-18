@@ -218,7 +218,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = angular.module("zkyResume", [_cmpt2.default, _cmpt4.default, _cmpt6.default]).component("zkyResume", {
-		templateUrl: "components/zkyResume/cmpt.html",
+		templateUrl: "./components/zkyResume/cmpt.html",
 		controllerAs: "zr",
 		controller: ZkyResumeCtrl
 	}).name;
@@ -612,7 +612,7 @@
 	Object.defineProperty(exports, "__esModule", {
 					value: true
 	});
-	exports.default = angular.module("rContact", []).component("resumeContact", {
+	exports.default = angular.module("_rContact", []).component("resumeContact", {
 					templateUrl: "components/_rContact/cmpt.html",
 					controller: ResumeContactCtrl
 	}).name;
@@ -645,7 +645,7 @@
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	exports.default = angular.module("rDefault", []).component("resumeDefault", {
+	exports.default = angular.module("_rDefault", []).component("resumeDefault", {
 		templateUrl: "components/_rDefault/cmpt.html",
 		controller: ResumeDefaultCtrl
 	}).name;
@@ -677,7 +677,7 @@
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	exports.default = angular.module("rWorks", []).component("resumeWorks", {
+	exports.default = angular.module("_rWorks", []).component("resumeWorks", {
 		templateUrl: "components/_rWorks/cmpt.html",
 		controller: ResumeWorksCtrl
 	}).directive("switchWork", ["actionEvent", function (actionEvent) {
@@ -730,7 +730,7 @@
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	exports.default = angular.module("rExperience", []).component("resumeExperience", {
+	exports.default = angular.module("_rExperience", []).component("resumeExperience", {
 		templateUrl: "components/_rExperience/cmpt.html",
 		controller: ResumeExperienceCtrl,
 		bindings: {
@@ -848,7 +848,7 @@
 	Object.defineProperty(exports, "__esModule", {
 					value: true
 	});
-	exports.default = angular.module("rInfo", []).component("resumeInfo", {
+	exports.default = angular.module("_rInfo", []).component("resumeInfo", {
 					templateUrl: "components/_rInfo/cmpt.html",
 					controller: ResumeInfoCtrl
 	}).name;
@@ -882,7 +882,7 @@
 	Object.defineProperty(exports, "__esModule", {
 					value: true
 	});
-	exports.default = angular.module("rSkill", []).component("resumeSkill", {
+	exports.default = angular.module("_rSkill", []).component("resumeSkill", {
 					templateUrl: "components/_rSkill/cmpt.html",
 					controller: ResumeSkillCtrl
 	}).name;
