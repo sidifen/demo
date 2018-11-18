@@ -647,7 +647,10 @@
 	});
 	exports.default = angular.module("_rDefault", []).component("resumeDefault", {
 		templateUrl: "components/_rDefault/cmpt.html",
-		controller: ResumeDefaultCtrl
+		controller: ResumeDefaultCtrl,
+		bindings: {
+			pageIndex: "="
+		}
 	}).name;
 
 
